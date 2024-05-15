@@ -1,6 +1,7 @@
 The Simon Sequence Game is a web-based application that recreates the classic Simon memory game. Players are challenged to remember and replicate sequences of button presses, with each round becoming progressively more difficult. This game is implemented using JavaScript and leverages the SimpleKit library for event handling and animations which was created by professor Daniel Vogel at the University of Waterloo.
 
 Features:
+
     Interactive Gameplay:
         - Players interact with colored circles that represent the buttons in the Simon game.
         - The game generates a sequence of button presses that the player must replicate.
