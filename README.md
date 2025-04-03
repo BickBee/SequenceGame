@@ -1,26 +1,45 @@
-The Simon Sequence Game is a web-based application that recreates the classic Simon memory game. Players are challenged to remember and replicate sequences of button presses, with each round becoming progressively more difficult. This game is implemented using JavaScript and leverages the SimpleKit library for event handling and animations which was created by professor Daniel Vogel at the University of Waterloo.
+# 🧠 Simon Sequence Game
 
-Features:
+The **Simon Sequence Game** is a web-based memory game that recreates the classic Simon experience. Players are challenged to remember and replicate sequences of button presses, with difficulty ramping up every round. Built with **JavaScript** and powered by **SimpleKit**—a lightweight animation and input library created by Prof. Daniel Vogel at the University of Waterloo.
 
-    Interactive Gameplay:
-        - Players interact with colored circles that represent the buttons in the Simon game.
-        - The game generates a sequence of button presses that the player must replicate.
-    
-    Visual Feedback:
-        - Circles highlight and expand in size to indicate which button is being pressed.
+## 🎮 How to Play
 
-    Dynamic Difficulty:
-        - The sequence length increases with each successful round, adding complexity and challenge.
-        - The number of possible selections in the sequence can also be increased or decreased by pressing '+' or '-'
+1. Watch the sequence as colored circles light up.
+2. Repeat the sequence in the correct order.
+3. Each successful round adds a new step to the sequence.
+4. Press `+` or `-` to adjust the number of buttons.
+5. Type `?` to activate **Cheat Mode**.
 
-    User Input Handling:
-        - Supports various input methods including mouse clicks and long presses.
-        - Displays messages to guide the player through the game, indicating turns and outcomes.
+## ✨ Features
 
-    Animations:
-        - Smooth animations for button presses and visual feedback.
-        - Customizable animations for different game states (e.g., winning, losing).
+### 🎯 Interactive Gameplay
+- Click or tap on colored circles to replicate the sequence.
+- Each circle represents a distinct input in the memory challenge.
 
-    Cheat Mode:
-        - A cheat mode that displays the current sequence for debugging or practice purposes.
-        - Can activate the "Cheat" mode by typing '?'
+### 💡 Visual Feedback
+- Circles animate with highlights and size changes to show activity.
+
+### 🔁 Dynamic Difficulty
+- The sequence grows longer every round.
+- Increase or decrease the number of colors in play using `+` / `-`.
+
+### 🖱️ User Input Handling
+- Supports mouse clicks and long presses.
+- Helpful on-screen messages guide your gameplay.
+
+### 🎞️ Animations
+- Smooth button transitions and press feedback.
+- Custom animations for winning and losing states.
+
+### 🧪 Cheat Mode
+- Type `?` to view the full current sequence for practice or debugging.
+
+## 🧰 Tech Stack
+
+- **JavaScript**
+- **HTML & CSS**
+- **SimpleKit** – for animations and event handling
+
+---
+
+Challenge your memory, improve your reflexes, and see how far you can go! 🧠⚡🟢🔴🔵🟡
